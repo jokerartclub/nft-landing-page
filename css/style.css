@@ -8,11 +8,11 @@
   --font-primary: 'Grandstander', sans-serif;
   --font-secondary: 'Grenze Gotisch', serif;
   --font-code: 'Gluten', monospace;
-  --bg-color: #c44cb4;
+  --bg-color: #701864;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #470d69;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #a83ae7;
+  --header-shadow: rgb(12, 12, 12) 0px 0px 5px;
 }
 
 * {
