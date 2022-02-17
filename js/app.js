@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'CRYPTO JOKER CLUB';
+const COLLECTION_NAME = 'CRYPTO JOKER';
 let editions = [];
 let dots = 1;
 
@@ -80,7 +80,7 @@ function updateStatusText(isOwner, checking) {
     if(isOwner) {
       statusText.innerText = `You do own ${COLLECTION_NAME}!! 😻 Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you own any ${COLLECTION_NAME} 😻${renderDots(dots)}`;
+      statusText.innerText = `Why YOU ARE So Serious? Let’s Check if you own any ${COLLECTION_NAME} 😻${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
